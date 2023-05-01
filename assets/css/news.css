@@ -1,0 +1,123 @@
+.news{
+    /* background: #F5F5F5; */
+    margin-bottom: 500px;
+}
+.news-container{
+    padding: 170px 250px;
+}
+.news-container__title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.news-container__title--up p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 59px;
+color: #292D32;
+margin-bottom: 30px;
+margin-top: 0;
+}
+.news-container__title--sub{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #838383;
+}
+.button-text{
+    margin-right: 20px;
+}
+.news-container__title--button .catalog-contaienr__button--circle{
+    margin-right: 0;
+}
+ .news-container__blocks--item{
+    max-width: 415px;
+    position: relative;
+ }
+.news-block__button .catalog-contaienr__button--circle{
+    background-color: #292D32;
+    margin: 0;
+}
+/* .news-block__button{
+    
+} */
+.doble-circle{
+    position: absolute;
+    top: 14px;
+    left: 317px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.news-block__background{
+    position: absolute;
+    padding: 25px 20px 25px 30px ;
+    background-image: url(../img/news/Rectangle\ 105.png);
+    width: 415px;
+    height: 146px;
+    top: 212px;
+}
+.news-block__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #292D32;
+    width: 200px;
+    margin: 0;
+}
+.news-block__sub{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #292D32;
+}
+.news-container__blocks{
+    display: grid;
+    grid-template-rows: 1.35fr 1fr;
+    grid-template-columns: 415px 415px 415px;
+    gap: 70px;
+    justify-content: center;
+}
+.news-block__date{
+    width: 50px;
+    height: 97px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    left: 388px;
+    top: 66px;
+}
+.date-num{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #292D32;
+    margin-bottom: 0px;
+}
+.date-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+    font-size: 13px;
+line-height: 23px;
+text-align: center;
+
+color: #292D32;
+}

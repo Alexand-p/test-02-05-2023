@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto';
+}
+
+ul.hr li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+  border: 1px solid #000; /* Рамка вокруг текста */
+  padding: 3px; /* Поля вокруг текста */
+ }
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+  a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+  
+  .head-nav{
+    display: flex;
+    max-height: 123px;
+    padding: 0 250px;
+    margin: 26px 0;
+  }
+  .head-nav__search ul li{
+    display: inline-block;
+    margin: 23px 22.5px;
+  }
+  .head-nav__search{
+    margin-left: 40px;
+  }
+  .head-nav__search ul li a{
+    color:#292D32;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+text-transform: uppercase;
+
+color: #292D32;
+  }
+  .head-nav__statiatics{
+    display: flex;
+    align-items: center;
+    margin-left: 365px;
+
+  }
+  .head-nav__statiatics--item{
+    margin-left: 30px;
+    position: relative;
+  }
+  .head-nav__statiatics--circle{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(51, 169, 255);
+    border-radius: 50%;
+    margin-right: 12px;
+    left: 35px;
+    top: 1px;
+  }
+  .head-nav__statiatics--circle p{
+    font-size: 12px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .background-img{
+    height: 676px;
+    width: 100%;
+    background: linear-gradient(0deg, #EEEEEE, #EEEEEE), linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42));
+  }
+  .background-img__position{
+    position: relative;
+    top: 250px;
+  }
+
+
+
+
+  .head-form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+.head-form__input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    background-image: url(../img/clarity_shopping-bag-line.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.head-form:hover,
+.head-form:valid{
+    width: 200px;
+    cursor: pointer;
+}
+
+.head-form:hover .head-form__input,
+.head-form:valid .head-form__input{
+    display: block;
+    border: 1px solid  black;
+}
+
+.head-form:hover .fa,
+.head-form:valid .fa{
+    /* background: #07051a; */
+    color: white;
+}
+
+
+.head-form__a{
+  display: none;
+  position: absolute;
+  top: 70px;
+  bottom:0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  color: white;
+  text-align: center; 
+  width: 100%;
+}
+
+.head-form:valid .head-form__a {
+  display: block;
+}
+.form-li{
+  position: absolute;
+  top: 35px;
+}

@@ -1,0 +1,132 @@
+.form{
+    position: absolute;
+    padding: 0 250px;
+    bottom: -3621px;
+}
+.form-container{
+    display: flex;
+}
+.form-left,.form-right{
+    width: 700px;
+    padding: 100px;
+}
+.form-left{
+    background: #F9F9F9;
+    border-radius: 20px 0px 0px 20px;
+}
+.form-right{
+    background: #292D32;
+    border-radius: 0px 20px 20px 0px;
+}
+.form-left__title{
+    margin-bottom: 57px;
+}
+.form-left__title--big,.form-right__title--big{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #292D32;
+    margin-bottom: 20px;
+}
+.form-left__title--small,.form-right__title--small{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #838383;
+}
+.form-right__title--big{
+    color: #FFFFFF;
+}
+.form-right__title--small{
+    color: #FFFFFF;
+}
+
+.form-left__adres,.form-left__email,.form-left__tell{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.form-img{
+    margin-right: 14px;
+    margin-top: 10px;
+}
+.signature{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #838383;
+    margin-bottom: 0;
+}
+.adres{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.form-left__social{
+    margin-top: 24px;
+}
+
+.form-example{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 25px 0;
+}
+.form-example label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #F2F2F2;
+    padding: 0 10px;
+    position: absolute;
+    left: 16px;
+    top: -13px;
+    background-color: #292D32;
+}
+.form-example input{
+    background-color: #292D32;
+    border: 1.5px solid rgba(242, 242, 242, 0.5);
+    border-radius: 20px;    
+    height: 59px;
+}
+
+.form-example #text{
+    height: 100px;
+}
+#submit{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(51, 169, 255);
+    border-radius: 50%;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 29px;
+    color: white;
+}
+
+.form-center{
+    position: relative;
+}
+.form-center__img{
+    position: absolute;
+    right: 624px;
+    top: 197px;
+}
+
+
+
+
+
+
