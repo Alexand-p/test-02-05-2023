@@ -1,7 +1,7 @@
 .form{
     position: absolute;
     padding: 0 250px;
-    bottom: -3621px;
+    top: 500%;
 }
 .form-container{
     display: flex;
