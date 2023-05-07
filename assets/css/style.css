@@ -173,22 +173,38 @@ color: #292D32;
   position: absolute;
   top: 35px;
 }
-
+.burger-menu{
+  display: none;
+}
 @media (max-width: 375px){
-  .form,.catalog,.news,.catalog,.footer{
-      margin: 0;
-      padding: 0;
-  }   
-  .catalog-container{
-      display: block;
-      /* grid-template-rows:  1fr 1fr;
-      grid-template-columns: 440px 440px 440px;
-      gap:40px;
-      justify-content: center; */
+  .burger-menu{
+    display: block;
   }
-  .col1,.col2,.col3,.col4,.col5,.col6{
-      /* border: 1px solid black; */
-      width: 345px;
-      height: 275px;
+  .head-nav__statiatics--item:nth-child(2),.head-nav__statiatics--item:nth-child(3){
+    display: none;
+  }
+  .head-nav__search ul li:not(:last-child){
+    display: none;
+  }
+  .head-nav{
+    margin: 0;
+    padding: 15px 0;
+  }
+  .head-nav__search{
+    margin-left: 0;
+  }
+  .head-nav__statiatics{
+    margin: 0;
+    position: absolute;
+    left: 123px;
+    top: 25px;    
+  }
+  .head-nav__logo{
+    margin-left: 15px;
+  }
+  .fa {
+    top: -7px;
+    right: 14px;
   }
 }
+
